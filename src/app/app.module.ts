@@ -1,15 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
+
+import {AppRoutingModule} from './app-routing.module';
 import { NgModule } from '@angular/core';
 
 // services
 import {RecipeService} from './services/recipe.service';
 
+
 // components
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { HomeComponent } from './components/home/home.component';
-import { EditRecipeComponent } from './components/edit-recipe/edit-recipe.component';
-import { NewRecipeComponent } from './components/new-recipe/new-recipe.component';
+import { HomeComponent } from './pages/home/home.component';
+import { EditRecipeComponent } from './pages/edit-recipe/edit-recipe.component';
+import { NewRecipeComponent } from './pages/new-recipe/new-recipe.component';
 import { ShowRecipeComponent } from './pages/show-recipe/show-recipe.component';
 
 
@@ -23,7 +26,8 @@ import { ShowRecipeComponent } from './pages/show-recipe/show-recipe.component';
     ShowRecipeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [
     RecipeService
