@@ -20,7 +20,7 @@
             "name": "ranch dressing"
           }
         ],
-        "instruction": [
+        "instructions": [
           "remove lettuce leaves",
           "add lettuce leaves to a large bowl",
           "then add the carrots the bowl",
@@ -52,7 +52,7 @@
             "name": "sugar"
           }
         ],
-        "instruction": [
+        "instructions": [
           "get a large bowl",
           "crack eggs into the bowl",
           "add the rest of the ingredients to the bowl",
@@ -81,7 +81,7 @@
             "name": "refried beans"
           }
         ],
-        "instruction": [
+        "instructions": [
           "spread tortilla chips on a large plate",
           "warm up beans in a pot on the stove",
           "sprinkle the shredded chesse on top of the chips",
