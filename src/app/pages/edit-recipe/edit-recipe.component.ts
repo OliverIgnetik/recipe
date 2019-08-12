@@ -102,7 +102,7 @@ export class EditRecipeComponent implements OnInit, OnDestroy {
         instructions,
       } = this.recipeForm.value;
       const filteredInstructions = instructions.map(item => item.step);
-      const val = this.recipeService.updateRecipe(
+      this.recipeService.updateRecipe(
         new Recipe({
           id: this.recipe.id,
           title,
